@@ -1,0 +1,20 @@
+{
+    "name": "browserify-rfr",
+    "version": "0.0.0",
+    "homepage": "https://github.com/SamyPesse/browserify-rfr",
+    "description": "Require From project Root tool for browserify",
+    "author": "Samy Pessé <samypesse@gmail.com>",
+    "license": "Apache 2",
+    "keywords": ["browserify-transform"],
+    "main": "index.js",
+    "dependencies": {
+        "through": "2.3.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SamyPesse/browserify-rfr.git"
+    },
+    "bugs": {
+        "url": "https://github.com/SamyPesse/browserify-rfr/issues"
+    }
+}
