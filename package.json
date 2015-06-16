@@ -1,6 +1,6 @@
 {
     "name": "browserify-rfr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/SamyPesse/browserify-rfr",
     "description": "Require From project Root tool for browserify",
     "author": "Samy Pessé <samypesse@gmail.com>",
