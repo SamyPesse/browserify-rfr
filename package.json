@@ -6,11 +6,11 @@
     "author": "Samy Pessé <samypesse@gmail.com>",
     "license": "Apache 2",
     "keywords": ["browserify-transform"],
-    "main": "index.js",
+    "main": "lib/index.js",
     "dependencies": {
         "through": "2.3.7",
-        "jstransform": "11.0.1",
-        "lodash": "3.9.3"
+        "lodash": "3.9.3",
+        "browserify-transform-tools": "1.4.2"
     },
     "devDependencies": {
         "mocha": "2.2.1",
