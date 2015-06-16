@@ -8,11 +8,21 @@
     "keywords": ["browserify-transform"],
     "main": "index.js",
     "dependencies": {
-        "through": "2.3.7"
+        "through": "2.3.7",
+        "jstransform": "11.0.1",
+        "lodash": "3.9.3"
+    },
+    "devDependencies": {
+        "mocha": "2.2.1",
+        "chai": "2.3.0",
+        "browserify": "10.2.4"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SamyPesse/browserify-rfr.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
     },
     "bugs": {
         "url": "https://github.com/SamyPesse/browserify-rfr/issues"

@@ -9,5 +9,5 @@ $ npm install .
 And use it with:
 
 ```
-$ browserify -t rfr main.js > bundle.js
+$ browserify -t [ rfr --root=./test ] main.js > bundle.js
 ```
